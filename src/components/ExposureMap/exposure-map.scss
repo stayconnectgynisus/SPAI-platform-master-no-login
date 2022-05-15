@@ -1,0 +1,215 @@
+
+
+.exposure-map-container {
+  // need to set it as global scss
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: 500;
+  background: white;
+  padding: 0 1%;
+  margin-bottom: 40px;
+  overflow: scroll;
+
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .pi {
+    font-size: 1.25em;
+    top: -5px;
+    position: relative;
+  }
+
+
+  .p-organizationchart .p-organizationchart-table {
+
+    font-size: 3px;
+  }
+
+  .header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e4e4e4;
+    p {
+      color: #2a2a33;
+      font-family: Heebo;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 57px;
+    }
+  }
+
+  .row {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .color-item {
+    display: flex;
+    align-items: center;
+    .circle {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      margin-right: 5px;
+      margin-left: 30px;
+    }
+    .text {
+
+    }
+  }
+
+  .p-organizationchart .p-organizationchart-node-content {
+    border: 0;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 0.871em 1em;
+    overflow: scroll;
+
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .root-node {
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+
+    &:hover {
+      width: 100px;
+      height: 100px;
+
+      img {
+        transition: .3s all;
+        width: 35px;
+      }
+    }
+
+    img {
+      width: 22px;
+    }
+  }
+  .level-0 {
+    background: #ff0000;
+    fill: #ff0000;
+    stroke: #ff0000;
+
+  }
+  .level-1 {
+    background: #ff0000;
+    fill: #ff0000;
+    //filter:url('../../assets/level-2.png');
+    stroke: #ff0000;
+  }
+  .level-2 {
+    background-color: #ff4d4d;
+    fill: #ff4d4d;
+    stroke: #ff4d4d;
+  }
+  .level-3 {
+    background-color: #ef870c;
+    fill: #ef870c;
+    stroke: #ef870c;
+  }
+  .level-4 {
+    background-color: #fba43c;
+    fill: #fba43c;
+    stroke: #fba43c;
+  }
+  .level-5 {
+    background-color: #ffbb6a;
+    fill: #ffbb6a;
+    stroke: #ffbb6a;
+  }
+
+  .level-1-text {
+    color: #ff0000;
+  }
+  .level-2-text {
+    color: #ff4d4d;
+  }
+  .level-3-text {
+    color: #ef870c;
+  }
+  .level-4-text {
+    color: #fba43c;
+  }
+  .level-5-text {
+    color: #ffbb6a;
+  }
+
+  .sub-node {
+    width: 75px;
+    height: 75px;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+    transition: .3s all;
+
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    img {
+      transition: .3s all;
+      width: 22px;
+    }
+
+    &:hover {
+      width: 100px;
+      height: 100px;
+      img {
+        width: 35px;
+      }
+    }
+  }
+
+
+
+  .danger {
+    background: #ff0000;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .person-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 10%;
+    font-size: 10px;
+  }
+
+
+  .node-container {
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    overflow: scroll;
+
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    p {
+      color: #ffffff;
+      font-family: Heebo;
+      font-size: 12px;
+      font-weight: 700;
+      margin: 0;
+    }
+  }
+
+}

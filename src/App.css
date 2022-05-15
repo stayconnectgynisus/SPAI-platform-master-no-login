@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+  position: relative;
+  height: 100%;
+
+}
+
+:root {
+  --main-bg-color: #f8f8f8;
+  --peding-status-color: #0072bc;
+  --suspect-status-color: #ef5d22;
+  --positive-status-color: #e92020;
+  --positive-status-color: #e92020;
+  --negative-status-color: #05a46e;
+}
+
+.App-logo {
+  /*height: 40vmin;*/
+  height: 70%;
+  pointer-events: none;
+}
+
+
+.App-header {
+  height: 80px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  box-shadow: 0px 0px 2px -1px rgba(0,0,0,0.2), 0px 0px 1px 0px rgba(0,0,0,0.14), 0px 1px 0px 0px rgba(0,0,0,0.12);
+}
+
+
+.content-container {
+  /* background-color: var(--main-bg-color) ; */
+  width: 100%;
+  position: relative;
+  height: auto;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+body {
+  background-color: var(--main-bg-color-trans);
+  background-image: url(assets/back-7.jpg);
+  background-size: cover;
+   /* background-color: #1fc8db;
+   background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+}
+body .p-multiselect .p-multiselect-label.p-placeholder {
+  font-size: 13px;
+}
+body .p-inputtext {
+  font-size: 13px;
+}
+body .p-multiselect-panel .p-multiselect-items .p-multiselect-item label {
+  font-size: 13px;
+}
+
+.p-datatable table {
+  border: 1px solid rgba(0,0,0,0.12);
+}
+
+.p-paginator .p-paginator-page, .p-paginator .p-paginator-next, .p-paginator .p-paginator-last, .p-paginator .p-paginator-first, .p-paginator .p-paginator-prev {
+  
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,.05);
+  -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,.05);
+  border: 1px solid rgba(0,0,0,0.12) !important;
+  border: 1px solid #ddd !important;
+  border-right: none !important;
+}
+body .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background-color: #007ad9 !important;
+  color: #ffffff  !important;
+}
+button.p-paginator-last.p-paginator-element.p-link {
+  border: 1px solid #ddd !important;
+}
+.gyn-table-container .p-datatable .p-paginator {
+ text-align: right;
+ margin-top: 10px;
+}
+.gyn-table-container .p-paginator .p-paginator-current {
+  font-size: 14px;
+  font-weight: 500;
+  /* font-size: 13px; */
+  /* font-weight: 700; */
+  font-style: italic;
+  color: #969696;
+  margin-left: 0px;
+}
+.gyn-table-container .p-datatable .p-sortable-column.p-highlight {
+  color: #FFF !important;
+}
+body .p-datatable .p-sortable-column.p-highlight .p-sortable-column-icon {
+  color: #ffffff !important;
+}
+
+body .p-datatable .p-datatable-tbody > tr > td {
+  border: none !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+}
+.gyn-table-container .p-datatable .p-datatable-tbody > tr > td {
+  font-size: 12px !important;
+  padding: 12px;
+}
+.gyn-table-container.warehouse .p-datatable .p-datatable-tbody > tr > td {
+  font-size: 13px !important;
+  padding: 12px;
+}
+.gyn-table-container .p-datatable .p-datatable-thead > tr > th {
+  border: 1px solid #e0e0e0;
+  font-size: 12px;
+  padding: 10px;
+}
+.p-datatable table {
+  table-layout: auto;
+}
+.gyn-table-container .content div.table{
+  overflow-x: auto;
+}
+.exposure-over-time-container {
+  padding: 0;
+}
+.exposure-over-time-container .chart-line {
+  width: 100%;
+}
+label.p-dropdown-label.p-inputtext{
+  padding-right: 31px;
+}
+.gyn-table-container .export{
+  display: block;
+}
+.gyn-table-container .export{
+  position: initial !important;
+}
+
+.main-container .content .table{
+  display: inline-block;
+  width: 82%;
+  flex: unset;
+}
+
+.main-container .content .chart{
+  display: inline-block;
+  width: 18%;
+  flex: unset;
+}
+
+.projected-distribution h4{
+  margin-top:  2px;
+}
+
+.Detailed-Exposure-Map .p-datatable.p-component.p-datatable-hoverable-rows{
+  width: 100% !important;
+
+}
+
+.export a[download]{
+  color: #ffffff;
+  background-color: #007ad9;
+  border: 1px solid #007ad9;
+  font-size: 14px;
+  padding: 6px 9px  !important;
+  border-radius: 3px;
+}
+
+/* .gyn-table-container .p-datatable .p-datatable-tbody > tr > td {
+  height: 105px;
+  -ms-overflow-style: none;
+} */
+/* 
+.gyn-table-container .p-datatable .p-datatable-thead > tr > th {
+  padding: 12px !important;
+} */
+
+body .p-datatable .p-sortable-column .p-sortable-column-badge{
+  text-align: center !important;
+}

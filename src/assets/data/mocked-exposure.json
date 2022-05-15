@@ -1,0 +1,97 @@
+[
+  {
+    "type": "P",
+    "MRN": "US_Site_1_P1044889393",
+    "ExposureDate": "2020-03-14T10:17:48.32",
+    "ExposureType": "Infected",
+    "ResultStatus": "positive",
+    "TotalInteractionCount": "1",
+    "ResultDate": "2020-03-20T07:34:30.397",
+    "hLevel": 0,
+    "RiskLevel": "1",
+    "path": "/US_Site_1_P1044889393/"
+  },
+  {
+    "type": "R",
+    "MRN": "US_Site_1_Pro459987899",
+    "ExposureDate": "2020-03-15T10:10:48.37",
+    "ExposureType": "Direct",
+    "ResultStatus": "N/A",
+    "TotalInteractionCount": "2",
+    "ResultDate": null,
+    "hLevel": 1,
+    "RiskLevel": "2",
+    "path": "/US_Site_1_P1044889393/US_Site_1_Pro459987899/"
+  },
+  {
+    "type": "R",
+    "MRN": "US_Site_1_Pro619701428",
+    "ExposureDate": "2020-03-14T10:17:48.32",
+    "ExposureType": "Direct",
+    "TotalInteractionCount": "4",
+    "ResultStatus": "N/A",
+    "ResultDate": null,
+    "RiskLevel": "3",
+    "hLevel": 1,
+    "path": "/US_Site_1_P1044889393/US_Site_1_Pro619701428/"
+  },
+  {
+    "type": "P",
+    "MRN": "US_Site_1_P1442290075",
+    "ExposureDate": "2020-03-15T11:02:49.193",
+    "ExposureType": "Indirect",
+    "TotalInteractionCount": "3",
+    "ResultStatus": "positive",
+    "ResultDate": "2020-03-20T07:34:31.58",
+    "RiskLevel": "4",
+    "hLevel": 2,
+    "path": "/US_Site_1_P1044889393/US_Site_1_Pro459987899/US_Site_1_P1442290075/"
+  },
+  {
+    "type": "P",
+    "MRN": "US_Site_1_P516285835",
+    "ExposureDate": "2020-03-15T11:02:49.193",
+    "ExposureType": "Indirect",
+    "TotalInteractionCount": "3",
+    "ResultStatus": "positive",
+    "ResultDate": "2020-03-20T07:34:31.58",
+    "RiskLevel": "1",
+    "hLevel": 2,
+    "path": "/US_Site_1_P1044889393/US_Site_1_Pro619701428/US_Site_1_P516285835/"
+  },
+  {
+    "type": "P",
+    "MRN": "US_Site_1_P516285835",
+    "ExposureDate": "2020-03-15T11:02:49.193",
+    "ExposureType": "Indirect",
+    "TotalInteractionCount": "3",
+    "ResultStatus": "positive",
+    "ResultDate": "2020-03-20T07:34:31.58",
+    "hLevel": 2,
+    "path": "/US_Site_1_P1044889393/US_Site_1_Pro459987899/US_Site_1_P516285835/"
+  },
+  {
+    "type": "P",
+    "MRN": "US_Site_1_P268201168",
+    "ExposureDate": "2020-03-15T11:02:49.193",
+    "ExposureType": "Indirect",
+    "TotalInteractionCount": "1",
+    "ResultStatus": "positive",
+    "ResultDate": "2020-03-20T07:34:31.58",
+    "RiskLevel": "4",
+    "hLevel": 2,
+    "path": "/US_Site_1_P1044889393/US_Site_1_Pro619701428/US_Site_1_P268201168/"
+  },
+  {
+    "type": "P",
+    "MRN": "US_Site_1_P268201168",
+    "ExposureDate": "2020-03-15T11:02:49.193",
+    "ExposureType": "Indirect",
+    "TotalInteractionCount": "3",
+    "ResultStatus": "positive",
+    "ResultDate": "2020-03-20T07:34:31.58",
+    "RiskLevel": "2",
+    "hLevel": 2,
+    "path": "/US_Site_1_P1044889393/US_Site_1_Pro459987899/US_Site_1_P268201168/"
+  }
+]

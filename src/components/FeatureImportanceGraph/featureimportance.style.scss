@@ -1,0 +1,38 @@
+
+.exposure-over-time-container {
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: 500;
+  background: white;
+  // padding: 0 1%;
+  height: -webkit-fill-available;
+  margin-bottom: 40px;
+
+  .header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e4e4e4;
+    p {
+      color: #2a2a33;
+      font-family: Heebo;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 57px;
+    }
+  }
+
+  //canvas {
+  //  max-height: 50vh;
+  //}
+
+  .chart-line {
+    position: relative;
+  }
+}
+.feature-importance{
+  width: calc(50% - 10px);
+  float: right;
+}

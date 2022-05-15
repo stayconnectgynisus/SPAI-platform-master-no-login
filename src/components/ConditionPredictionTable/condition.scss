@@ -1,0 +1,53 @@
+.content {
+  display: flex;
+  width: 100%;
+
+  .table {
+    flex: 7.5;
+  }
+
+  .chart {
+    display: flex;
+    flex: 2.5 1;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.gyn-table-container .est-risk-scale {
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 3px;
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+span[id="low"] {
+  background: #05a46e;
+}
+span[id="medium low"] {
+  background: #3a7ec7;
+}
+span[id="medium"] {
+  background: #f5d802;
+}
+span[id="medium high"] {
+  background: #fe9a2a;
+}
+span[id="high"] {
+  background: #eb3e40;
+}
+.ml5 {
+  margin-left: 5px;
+}
+.aligh-left {
+  text-align: left;
+}
+.spantext {
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: capitalize;
+  width: 75px;
+}
